@@ -1,0 +1,12 @@
+.box {
+	margin: 5%;
+	width: 20%;
+	padding-top: 20%;
+	background-color: yellow;
+	float: left;
+	border-radius: 20px;
+}
+
+.first_box_of_the_row {
+	clear: left;
+}
