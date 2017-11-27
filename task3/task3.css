@@ -1,0 +1,64 @@
+body, .userInfo{
+	text-align:center;
+	background-color: #68cdd5;
+	color: white;
+	font-size: 62.5%;
+}
+
+.back {
+	margin-top: 1%;
+	float: left;
+	width: 10%;
+	height: 10%;
+}
+
+.back img {
+	max-width: 5em;
+	height: auto;
+}
+
+
+.logo {
+	display: inline-block;
+	margin:6% auto;
+	clear: left;
+	width: 100%;
+	height: 30%;
+}
+
+.logo img {
+	max-width: 15em;
+	height: auto;
+}
+
+.intro {
+	text-align: left;
+	margin:10%;
+	font-size: 2em;
+	font-family: Hiragino Sans GB;
+	font-weight: normal;
+}
+
+.accountNumber {
+	width:40%;
+	margin:5%;
+	float: left;
+	color: white;
+}
+
+.accountNumber img{
+	max-width: 7em;
+	height: auto;
+}
+
+.accountName {
+	width:40%;
+	margin:5%;
+	float: left;
+}
+
+.accountName img{
+	max-width: 6em;
+	height: auto;
+}
+
