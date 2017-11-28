@@ -32,11 +32,15 @@ body, .userInfo{
 }
 
 .intro {
-	text-align: left;
+	text-align: center;
 	margin:10%;
 	font-size: 2em;
 	font-family: Hiragino Sans GB;
 	font-weight: normal;
+}
+.intro p {
+	text-align: justify;
+	display: inline-block;
 }
 
 .accountNumber {
