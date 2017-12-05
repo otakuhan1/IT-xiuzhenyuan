@@ -26,11 +26,11 @@ body {
 }
 
 li {
-	
+	position: absolute;
 	height: 4rem;
 	line-height: 4rem;
-	float: left;
 	list-style: none;
+	display: inline-block;
 
 }
 
@@ -44,6 +44,7 @@ li {
 }
 
 .loginTitle {
+	margin-left: 30%;
 	text-align: center;
 	width: 40%;
 }
@@ -51,9 +52,11 @@ li {
 .register {
 	text-align: right;
 	width: 30%;
+	margin-left: 70%;
 }
 
 .register a {
+
 	padding-right: 3%;
 }
 
