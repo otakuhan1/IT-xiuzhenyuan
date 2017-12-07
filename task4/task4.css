@@ -6,14 +6,19 @@
 }
 */
 
+html{
+	font-size: 10px;
+}
+
 body {
 	
 	font-family: 'KaiTi';
 	/*font-family: 'STHeiti SC';*/
-	font-weight: normal;
 	background-color: #eff0f4;
 	overflow: hidden;
 }
+
+
 
 .header {
 	position: fixed;
@@ -41,12 +46,18 @@ li {
 
 .close a {
 	padding-left: 3%;
+	font-size: 2rem;
 }
 
 .loginTitle {
 	margin-left: 30%;
 	text-align: center;
 	width: 40%;
+}
+
+.loginTitle span{
+	font-size: 2.5rem;
+	font-weight: bold;
 }
 
 .register {
@@ -56,17 +67,18 @@ li {
 }
 
 .register a {
-
 	padding-right: 3%;
+	font-size: 2rem;
 }
 
-a{
+.header a {
 	text-decoration: none;
 	color: white;
 }
 
+
 .main {
-	margin-top: 5rem;
+	margin-top: 4.5rem;
 	width: 100%;
 }
 
@@ -78,9 +90,6 @@ a{
 	width: 100%;
 }
 
-
-
-
 input {
 	border: 0;
 	height: 4rem;
@@ -88,23 +97,29 @@ input {
 	width: calc(100% - 6rem);
 	outline: none;
 	padding-left: 6rem;
+	font-family: 'KaiTi';
+	font-size: 1.5rem;
 
 }
 
 .loginPhone input {
-	background:url(images/login_phone.png) no-repeat;
-	background-size: 6rem 4rem;
+	background:url(images/login_phone.png) 0 0 no-repeat,
+			   url(images/login_bar.png) 3rem 0 no-repeat;
+	background-size: 3.5rem 4rem;
 }
 
 .loginPwd input {
-	background:url(images/login_pwd.png) no-repeat;
-	background-size: 6rem 4rem;
+	background:url(images/login_pwd.png) 0 0 no-repeat,
+			   url(images/login_bar.png) 3rem 0 no-repeat;
+	background-size: 3.5rem 4rem;
 }
 
 
 
 
 .login button {
+	font-size: 2.5rem;
+	font-weight: bold;
 	background-color: #5fc0cd;
 	color: white;
 	width: 100%;
@@ -120,13 +135,13 @@ button {
 }
 
 .footer {
-	
 	text-align: right;
+	margin-top: 1rem;
 }
 
 .footer a{
-	margin-top: 1rem;
-	margin-right: 1rem;
+	font-size: 1.5rem;
+	margin-right: 1.5rem;
 	color: #5fc0cd;
 	
 }
